@@ -6,7 +6,7 @@ import streamlit as st
 from streamlit_extras.colored_header import colored_header
 sns.set(font_scale=0.8)
 
-df = pd.read_csv("Course_info.csv")
+df = pd.read_csv("data.csv")
 
 ###Cleaning and preparing the data###
 df = df.drop_duplicates() #Duplicates
